@@ -4,12 +4,12 @@
 // => curried(123,1234,1234)(1234)
 
 function curry(f) {
-  return function curried(...val) {
-    if (val.length >= f.length) {
-      return f.apply(this, val);
+  return function curried(...args) {
+    if (args.length >= f.length) {
+      return f.apply(this, args);
     }
-    return function (...val2) {
-      return curried.apply(this, val.concat(val2));
+    return function (...innerArgs) {
+      return curried.apply(this, args.concat(innerArgs));
     };
   };
 }

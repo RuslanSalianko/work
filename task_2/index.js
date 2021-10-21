@@ -10,11 +10,11 @@ const dirRm = path.join(__dirname, process.argv[2]);
 
 fs.opendir(dirRm, (err, dir) => {
   if (err) {
-    console.log(err.message);
+    console.error(err.message);
   }
   fs.rm(dir.path, { recursive: true, force: true }, (errRm) => {
     if (errRm) {
-      console.log(errRm.message);
+      console.error(errRm.message);
     }
   });
 });
