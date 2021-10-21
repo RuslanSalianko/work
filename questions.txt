@@ -1,2 +1,25 @@
 1. Gulp --зачем, стоит ли
 2. delete -- при каких условиях может не сработать?
+
+obj = {
+    field: 'val'
+}
+
+obj = {
+    value: {
+        field: 'val'
+    },
+    get field() {
+        return this.value.field;
+    },
+    set field(val) {
+        this.value.field = val;
+    },
+    toString() {
+        return this.value;
+    }
+}
+
+Object.defineProperty();
+
+model.field => model.toJson();
