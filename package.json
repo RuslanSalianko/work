@@ -6,10 +6,10 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start_lesson_1": "node lesson_1/index.js",
-    "start_lesson_2": "node lesson_2/index.js",
-    "dev_lesson_1": "nodemon lesson_1/index.js",
-    "dev_lesson_2": "nodemon lesson_2/index.js",
+    "start_task_1": "node task_1/index.js",
+    "start_task_2": "node task_2/index.js",
+    "dev_task_1": "nodemon task_1/index.js",
+    "dev_task_2": "nodemon task_2/index.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
