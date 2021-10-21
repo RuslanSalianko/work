@@ -25,5 +25,9 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.25.2",
     "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "link": "^0.1.5",
+    "path": "^0.12.7"
   }
 }
