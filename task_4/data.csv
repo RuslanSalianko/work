@@ -1,5 +1,7 @@
 key; value;
 name; David;
 lastName; Gav;
-friend.name; Peter;
+friend; Yahor;
+friend.friend.friend.name; Peter;
+friend.friend.name; Yahor;
 dob; 01/01/1990;

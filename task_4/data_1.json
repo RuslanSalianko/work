@@ -1,0 +1,13 @@
+{
+  "name": "David",
+  "lastName": "Gav",
+  "friend": {
+    "friend": {
+      "name": "Yahor",
+      "friend": {
+        "name": "Peter"
+      }
+    }
+  },
+  "dob": "01/01/1990"
+}
