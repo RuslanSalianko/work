@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-syntax */
 import { Router } from 'express';
 
 export const router = new Router();
