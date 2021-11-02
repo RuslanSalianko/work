@@ -44,7 +44,7 @@ router.get('/', (req, res) => {
 
 router.post('/', (req, res) => {
   const json = JSON.parse(req.body.json);
-  const search = req.body.search;
+  const { search } = req.body;
 
   const arrKey = searchPathKey(json, search);
   const message = creationMessage(arrKey);
